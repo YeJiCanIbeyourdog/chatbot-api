@@ -26,6 +26,8 @@ public class ApiTest {
 
         // 添加请求头
         get.addHeader("cookie","zsxqsessionid=6bc57522e8021225dbe393a0fb952752; abtest_env=product; zsxq_access_token=5895F417-4688-C024-A41A-836BBB2238C3_E4719BF902A2D77B");
+//        get.addHeader("cookie","        get.addHeader(\"cookie\",\"zsxqsessionid=6bc57522e8021225dbe393a0fb952752; abtest_env=product; zsxq_access_token=5895F417-4688-C024-A41A-836BBB2238C3_E4719BF902A2D77B\");\n");
+
         get.addHeader("Content-type","application/json;charset=utf8");
 
         CloseableHttpResponse response = httpClient.execute(get);
