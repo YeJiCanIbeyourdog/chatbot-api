@@ -1,9 +1,3 @@
-server:
-  port: 8090
-chatbot-api:
-  groupId: 48888145814518
-#  cookie: zsxqsessionid=6bc57522e8021225dbe393a0fb952752; abtest_env=product; zsxq_access_token=5895F417-4688-C024-A41A-836BBB2238C3_E4719BF902A2D77B
-  cookie: zsxq_access_token=5895F417-4688-C024-A41A-836BBB2238C3_E4719BF902A2D77B; zsxqsessionid=40573ad34cb0517ec8dddb212b28b271
 # ChatGLM SDK Config
 chatglm:
   sdk:
@@ -13,6 +7,6 @@ chatglm:
       # 官网地址
       api-host: https://open.bigmodel.cn/
       # 官网申请 https://open.bigmodel.cn/usercenter/apikeys
-      api-secret-key: b0c604a00958ab72d306b92c8ce6a1a5.Ufmm5qGXlQom2iXY
+      api-secret-key: b0c604xxxxxxxxxxxxxxxxxxx.xxxxxxx2iXY
       # 知识星球 Cookie 你需要获取你的 cookie 登录
       cookie: zsxq_access_token=5895F417-4688-C024-A41A-836BBB2238C3_E4719BF902A2D77B; zsxqsessionid=40573ad34cb0517ec8dddb212b28b271
